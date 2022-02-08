@@ -1,0 +1,227 @@
+@charset "UTF-8";
+
+body{
+	font-family: arial;
+}
+.radio1:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: lightgrey;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+        }
+
+.radio1:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: orange;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+.rec{
+	display: inline-block;
+	position: relative;
+	left: 5px;
+}
+.documento{
+	height: 2em;
+	width: 15%;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: lightgrey;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid orange;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.ex{
+	font-size: 75%;
+}
+
+.bot{
+	background-color: orange;
+	color: white;
+	width: 150px;
+	font-weight: bold;
+	height: 40px;
+}
+.tu{
+	color: orange;
+}
+.documento2{
+	width: 42em;
+  	height: 5em;
+}
+.w2{
+	display: inline-block;
+}
+
+.de{
+	position: relative;
+	top: 1em;
+	width: 20em;
+  	height: 5em;
+}
+.de2{
+	position: relative;
+	top: 1em;
+	width: 20em;
+  	height: 5em;
+  	position: relative;
+  	left: 1em;
+}
+.du{
+	position: relative;
+	top: 2em;
+	width: 20em;
+  	height: 5em;
+  	position: relative;
+}
+.rt{
+	position: relative;
+	top: 2em;
+	width: 20em;
+  	height: 5em;
+}
+.rt2{
+	position: relative;
+	top: 2em;
+	width: 20em;
+  	height: 5em;
+  	left: 2em;
+}
+.mo{
+	position: relative;
+	top: 3em;
+	width: 20em;
+  	height: 5em;
+  	position: relative;
+}
+.mo2{
+	position: relative;
+	top: 3em;
+	width: 20em;
+  	height: 5em;
+  	position: relative;
+  	left: 1em;
+}
+.we{
+	text-align: justify;
+	display: inline;
+}
+
+.container2 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+
+.container2 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+
+.checkmark2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: lightgrey;
+  border-color: grey;
+}
+
+.checkmark2:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container2 input:checked ~ .checkmark2:after {
+  display: block;
+}
+
+.container2 .checkmark2:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid;
+  border-width: 0 3px 3px 0;
+  border-color: grey;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.bot2{
+	background-color: lightgreen;
+	color: white;
+	width: 150px;
+	font-weight: bold;
+	height: 40px;
+}

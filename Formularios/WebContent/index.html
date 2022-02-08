@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Formularios</title>
+<link rel="stylesheet" href="sytle.css">
+</head>
+<body>
+	<header>
+		<h1>Accede a tu Área Clientes</h1>
+	</header>
+	<main>
+		<section>
+			<h3>Elige tu documento</h3>
+			<input class="radio1" type="radio" name="gender" value="Tarjeta"> DNI o Tarjeta
+			<br>
+			<input class="radio1" type="radio" name="gender" value="Pasaporte"> Pasaporte
+		</section>
+		<br>
+		<section>
+			<h3>Número de documento</h3>
+			<input class="documento" name="nombre" type="text" placeholder="DNI o Tarjeta de residencia">
+		</section>
+		<section>
+			<h3>Fecha de nacimiento</h3>
+			<input type="date" name="date">
+		</section>
+			<br>
+		<section>
+			<label class="container" id="c1"><p class="ex">Recordar</p>
+  			<input type="checkbox" checked="checked">
+  			<span class="checkmark"></span>
+			</label>
+		</section>
+		<section>
+			<input name="Submit" type="submit" value="Enviar" class="bot">
+		</section>
+		<section>
+			<p><span class="tu">></span> Acceder con DNI electronico</p>
+			<p><span class="tu">></span> Más información sobre seguridad</p>
+		</section>
+	</main>
+	<br></br>
+	<hr></hr>
+	<header>
+		<h1>Empieza creando tu usuario</h1>
+	</header>
+	<main>
+		<section class="w2">
+			<input class="documento2" name="nombre" type="text" placeholder="Nombre (como sale en el DNI)">
+		</section>
+		<section>
+			<input class="de" name="nombre" type="text" placeholder="1º apellido (como sale en el DNI) ">
+			<input class="de2" name="nombre" type="text" placeholder="2º apellido (como sale en el DNI)">
+		</section>
+		<section>
+			<select name="Tipo de documnto" class="rt">
+  			 <option selected value="0"> Tipo de documento </option>
+      			<optgroup label="Tipo de documento"> 
+       			<option value="1">DNI</option> 
+       			<option value="2">NIF</option> 
+       			<option value="3">CERT.AEAT</option> 
+   				</optgroup> 
+   			<input class="rt2" name="nombre" type="text" placeholder="Número de documento">
+		</section>
+		<section>
+			<input class="mo" name="movil" type="text" placeholder="Movil">
+			<input class="mo2" name="nombre" type="text" placeholder="Email">
+		</section>
+	</main>
+	<br></br>
+	<br></br>
+	<hr>
+	<header>
+		<h1>¿Eres nuevo?</h1>
+		<p>Regístrate para guardar tu información y hacer</p>
+		<p> tus pedidos de forma más fácil y rápida</p>	
+	</header>
+	<main>
+		<section>
+			<p>Email</p>
+			<input class="documento" name="Email" type="text" placeholder="Introduce tu email">
+		</section>
+		<section>
+			<p>Teléfono</p>
+			<input class="documento" name="Teléfono" type="text" placeholder="Tu teléfono">
+		</section>
+		<section>
+			<p>Contraseña</p>
+			<input class="documento" name="Teléfono" type="text" placeholder="Introduce tu contraseña">
+		</section>
+		<section>
+			<p>Confirma tu contraseña</p>
+			<input class="documento" name="Teléfono" type="text" placeholder="Confirmar contraseña">
+		</section>
+		<section>
+			<label class="container2" id="c2"><p class="ex">He leído y acepto Politica de privacidad</p>
+  			<input type="checkbox" checked="checked">
+  			<span class="checkmark2"></span>
+			</label>
+		</section>
+		<section>
+			<label class="container2" id="c2"><p class="ex">Sí,acepto recibir comunicaciones comerciales</p>
+			<p class="ex"> y ofertas personalizadas según mi perfil</p>
+  			<input type="checkbox" checked="checked">
+  			<span class="checkmark2"></span>
+			</label>
+		</section>
+		<section>
+			<section>
+			<input name="Submit" type="submit" value="Enviar" class="bot2">
+		</section>
+		</section>
+	</main>
+</body>
+</html>
